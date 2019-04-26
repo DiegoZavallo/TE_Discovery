@@ -1,0 +1,12 @@
+chr - chr01 chr01 0 88663952 green
+chr - chr02 chr02 0 48614681 green
+chr - chr03 chr03 0 62290286 green
+chr - chr04 chr04 0 72208621 green
+chr - chr05 chr05 0 52070158 green
+chr - chr06 chr06 0 59532096 green
+chr - chr07 chr07 0 56760843 green
+chr - chr08 chr08 0 56938457 green
+chr - chr09 chr09 0 61540751 green
+chr - chr10 chr10 0 59756223 green
+chr - chr11 chr11 0 45475667 green
+chr - chr12 chr12 0 61165649 green

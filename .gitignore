@@ -1,0 +1,9 @@
+data
+.DS_Store
+sw
+venv
+dev
+.ipynb_checkpoints
+*.pyc
+nohup.out
+.idea
