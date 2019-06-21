@@ -10,7 +10,7 @@ source venv/bin/activate
 which python            
 #(...)TE_Discovery/venv/bin/python
 #Install requirements
-pip install -r requirements.txt 
+pip3 install -r requirements.txt 
 #run jupyter lab
 jupyter lab
 ```
