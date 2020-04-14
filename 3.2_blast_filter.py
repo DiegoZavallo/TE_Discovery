@@ -6,7 +6,7 @@
 
 import pandas as pd
 from itertools import cycle
-path_blast = 'data/results/'
+path_blast = '/home/diego/Documents/INTA/TE_papa/PCRE-D-20-00116/TRIM//'
 
 te_type = 'TRIM'
 print('Running for', te_type)
@@ -23,7 +23,7 @@ params['SINE'] = {'min_len':150,'max_len':800,'min_distance':5,'max_q':1.1,'min_
 params['TIR'] = {'min_len':500,'max_len':False,'min_distance':5,'max_q':1.1,'min_q':0.9,'min_pident':90,'min_qcov':90,'file':'blast_clustered_tir.csv'}
 params['MITE'] = {'min_len':50,'max_len':800,'min_distance':5,'max_q':1.15,'min_q':0.85,'min_pident':90,'min_qcov':90,'file':'blast_clustered_mite.csv'}
 params['LARD'] = {'min_len':50,'max_len':800,'min_distance':5,'max_q':1.15,'min_q':0.85,'min_pident':90,'min_qcov':90,'file':'blast_clustered_lard.csv'}
-params['TRIM'] = {'min_len':600,'max_len':False,'min_distance':5,'max_q':1.2,'min_q':0.8,'min_pident':80,'min_qcov':80,'file':'blast_clustered_trim.csv'}
+params['TRIM'] = {'min_len':600,'max_len':False,'min_distance':5,'max_q':1.1,'min_q':0.9,'min_pident':90,'min_qcov':90,'file':'blast_clustered_trim_TRF_filtered.csv'}
 params['helitron'] = {'min_len':2000,'max_len':False,'min_distance':5,'max_q':1.2,'min_q':0.8,'min_pident':80,'min_qcov':80,'file':'blast_clustered_helitron.csv'}
 #select which TE type you want to run
 
